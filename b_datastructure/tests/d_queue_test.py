@@ -1,7 +1,7 @@
 import random
 import unittest
 import sys
-sys.path.append(r'C:\Users\KSH\Desktop\CODE\Algorythm\b_datastructure')
+sys.path.append(r'/Users/gangsuhyeon/Desktop/AI BACKEND/Algorithm/b_datastructure')
 from d_queue import *
 
 class TestQueue(unittest.TestCase): # TestProgram으로 잘못 넣었더니 오류 발생
@@ -20,10 +20,10 @@ class TestQueue(unittest.TestCase): # TestProgram으로 잘못 넣었더니 오�
             print(queue.dequeue(), end=' -> ')
         print(queue)
         
-    def test_q_card(self):
+    def test_q_card(self):  # 얘는 아무것도 아닌 거 같음
         queue = Queue()
         for i in range(1,5):
             queue.enqueue(i)
-        print(result)
+        # print(result)
 if __name__ == '__main__':
     unittest.main()

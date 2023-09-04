@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append(r'C:\Users\KSH\Desktop\CODE\Algorythm\a_basic')
+sys.path.append(r'/Users/gangsuhyeon/Desktop/AI BACKEND/Algorithm/a_basic')
 from c_math import *
 from math import *
 import random
@@ -9,7 +9,7 @@ class TestBasic(unittest.TestCase):
     def test_is_prime(self):
         # print('hello test')
         # self.assertTrue(True)
-        self.assertTrue(is_prime(18))    # 나
+        self.assertTrue(is_prime(7))    # 나
         # self.assertTrue(is_prime_ans(7))    # 답1
     def test_is_prime2(self):
         self.assertTrue(is_prime_plus(7))
