@@ -31,5 +31,15 @@ class TestBST(unittest.TestCase):
         # bst.root.left_child.right_child.left_child = Node(4)
         # bst.root.left_child.right_child.right_child = Node(7)
         # bst.root.right_child.right_child.left_child = Node(13)
+    
+    def test_find(self):
+        bst = BinarySearchTree()
+        
+        for i in [8,3,10,1,6,14,4,7,13]:
+            bst.insert(i)
+        
+        self.assertTrue(bst.find(10))
+        # self.assertTrue(bst.find(100)) # False 값 리턴
+        
 if __name__ == '__main__':
     unittest.main()

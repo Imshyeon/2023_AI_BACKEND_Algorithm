@@ -32,7 +32,18 @@ class BinarySearchTree:
                     link.right_child = node
                     break
                 link = link.right_child
+               
                 
+    def find(self,data):
+        link = self.root
+        
+        while True:
+            if self.root is None : return False # root 노드가 None
+            elif link.data == data : return True    # data 찾았으면
+            elif data < link.data : link = link.left_child  # 내가 찾고자하는 데이터가 현재 노드의 데이터보다 작다면 왼쪽 노드로 이동
+            else : link = link.right_child  # 내가 찾고자하는 데이터가 현재 노드의 데이터보다 작다면 오른쪽 노드로 이동
+        
+     
     # 깊이 우선 탐색 (전위, 중위, 후위 탐색)
     def dfs(self, type):
         type_dict = {'inorder' : self.__in_order,
