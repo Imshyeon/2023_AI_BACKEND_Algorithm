@@ -6,11 +6,11 @@ from a_bubble_sort import *
 from b_selection_sort import *
 
 class TestBubble(unittest.TestCase):
-    def test_buble_sort(self):
+    def test_bubble_sort(self):  # 0.032s
         arr = [round(random.randrange(1,1000)) for _ in range(1000)]
         print(bubble_sort_ans4(arr))
 
-    def test_selection_sort(self):
+    def test_selection_sort(self):  # 0.015s
         arr = [round(random.randrange(1,1000)) for _ in range(1000)]
         print(selection_sort_ans(arr))
         
