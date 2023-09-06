@@ -1,3 +1,5 @@
+from d_queue import *
+
 # 이진탐색트리
 class Node:
     def __init__(self, data):
@@ -90,3 +92,28 @@ class BinarySearchTree:
         if link is not None:
             res += [link.data]
         return res
+    
+    
+    # 너비우선탐색 BFS
+    
+    def bfs(self):
+        queue = Queue()
+        queue.enqueue(self.root)
+        level = 0   # depth level
+        
+        while not queue.is_empty() : # queue가 안빌때까지
+            print(f'level {level} : ',end=' ')
+            length = len(queue)
+            
+            for i in range(length):
+                node = queue.dequeue()
+                print(node.data, end='  ')
+                
+                if node.left_child is not None:
+                    queue.enqueue(node.left_child)
+                    
+                if node.right_child is not None:
+                    queue.enqueue(node.right_child)
+                    
+            print()
+            level += 1

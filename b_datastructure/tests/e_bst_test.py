@@ -41,5 +41,14 @@ class TestBST(unittest.TestCase):
         self.assertTrue(bst.find(10))
         # self.assertTrue(bst.find(100)) # False 값 리턴
         
+    def test_bfs(self):
+        bst = BinarySearchTree()
+        
+        # for i in [8,3,10,1,6,14,4,7,13]:
+        for i in range(10): # 이렇게 되면 최악의 경우이다. 
+            bst.insert(i)
+            
+        bst.bfs()
+        
 if __name__ == '__main__':
     unittest.main()
