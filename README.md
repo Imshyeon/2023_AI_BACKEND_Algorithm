@@ -8,56 +8,56 @@
 
 
 ## a_basic
-1. a_condition : 최대, 최소, 중간값 구하기
-2. b_loop : 덧셈, 다이아몬드 별 찍기
-3. c_math : 소수 판별, 최대공약수, 최소공배수, 팩토리얼, 피보나치 수열
+1. [a_condition](https://github.com/Imshyeon/Algorithm/blob/main/a_basic/a_condition.py) : 최대, 최소, 중간값 구하기
+2. [b_loop](https://github.com/Imshyeon/Algorithm/blob/main/a_basic/b_loop.py) : 덧셈, 다이아몬드 별 찍기
+3. [c_math](https://github.com/Imshyeon/Algorithm/blob/main/a_basic/c_math.py) : 소수 판별, 최대공약수, 최소공배수, 팩토리얼, 피보나치 수열
 
 <br>
 
 ## b_datastructure
-1. a_list : Linked List 구현
-    - a_list_q : 앞에서 구현한 Linked List를 이용해 문제풀기
+1. [a_list](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/a_list.py) : Linked List 구현
+    - [a_list_q](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/a_list_q.py) : 앞에서 구현한 Linked List를 이용해 문제풀기
         - 자연수 배열에서 가장 큰 수 찾기
         - 자연수 배열에서 가장 큰 두 수를 찾아 배열로 반환하기
         - 회문검사
 
-2. b_hashtable : HashTable 구현
-    - b_hashtable_q : 앞에서 구현한 Hash Table를 이용해 문제풀기
+2. [b_hashtable](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/b_hashtable.py) : HashTable 구현
+    - [b_hashtable_q](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/b_hashtable_q.py) : 앞에서 구현한 Hash Table를 이용해 문제풀기
     
-3. c_stack : Stack 구현
-    - c_stack_q : 앞에서 구현한 Stack를 이용해 문제풀기
+3. [c_stack](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/c_stack.py) : Stack 구현
+    - [c_stack_q](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/c_stack_q.py) : 앞에서 구현한 Stack를 이용해 문제풀기
         - 괄호 문제
         
-4. d_queue : Queue 구현
-    - d_queue_q : : 앞에서 구현한 Queue를 이용해 문제풀기
+4. [d_queue](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/d_queue.py) : Queue 구현
+    - [d_queue_q](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/d_queue_q.py) : : 앞에서 구현한 Queue를 이용해 문제풀기
         - 카드 문제
         - 요세푸스 순열 문제
 
-5. e_bst : 이진탐색트리 구현
+5. [e_bst](https://github.com/Imshyeon/Algorithm/blob/main/b_datastructure/e_bst.py) : 이진탐색트리 구현
 
 <br>
 
 ## c_search
-1. a_linear : 선형 검색
-2. b_binary : 이진 검색
+1. [a_linea](https://github.com/Imshyeon/Algorithm/blob/main/c_search/a_linear.py) : 선형 검색
+2. [b_binary](https://github.com/Imshyeon/Algorithm/blob/main/c_search/b_binary.py) : 이진 검색
 
 ## d_brute_force
-1. a_bubble_sort : 버블 정렬
-2. b_selection_sort : 선택 정렬
-3. c_brute_force_q : brute force를 이용한 문제 풀기
+1. [a_bubble_sort](https://github.com/Imshyeon/Algorithm/blob/main/d_brute_force/a_bubble_sort.py) : 버블 정렬
+2. [b_selection_sort](https://github.com/Imshyeon/Algorithm/blob/main/d_brute_force/b_selection_sort.py) : 선택 정렬
+3. [c_brute_force_q](https://github.com/Imshyeon/Algorithm/blob/main/d_brute_force/c_brute_force_q.py) : brute force를 이용한 문제 풀기
     - 종말
     - 일곱난쟁이
 
 ## e_devide_conqure
-1. a_merge_sort, a_merge_sort2 : merge sort
-2. b_quick_sort, b_quick_sort2 : quick sort
-3. c_devide_conqure_q : 분할정복을 이용한 문제 풀기
+1. [a_merge_sort](https://github.com/Imshyeon/Algorithm/blob/main/e_devide_conqure/a_merge_sort.py), [a_merge_sort2](https://github.com/Imshyeon/Algorithm/blob/main/e_devide_conqure/a_merge_sort2.py) : merge sort
+2. [b_quick_sort](https://github.com/Imshyeon/Algorithm/blob/main/e_devide_conqure/b_quick_sort.py), [b_quick_sort2](https://github.com/Imshyeon/Algorithm/blob/main/e_devide_conqure/b_quick_sort2.py) : quick sort
+3. [c_devide_conqure_q](https://github.com/Imshyeon/Algorithm/blob/main/e_devide_conqure/c_devide_conqure_q.py) : 분할정복을 이용한 문제 풀기
     - 거듭제곱 최적화
 
 ## f_greedy
-1. a_coin_q : 탐욕법을 이용한 코인 문제
-2. b_meeting : 탐욕법을 이용한 회의 시간 잡기 문제
+1. [a_coin_q](https://github.com/Imshyeon/Algorithm/blob/main/f_greedy/a_coin_q.py) : 탐욕법을 이용한 코인 문제
+2. [b_meeting](https://github.com/Imshyeon/Algorithm/blob/main/f_greedy/b_meeting.py) : 탐욕법을 이용한 회의 시간 잡기 문제
 
 ## g_dynamic_programming
-1. a_fibo_dp : a_basic에 있던 피보나치 수열을 가지고 와서 dynamic programming으로 구현하기
-2. b_sum_dp : dynamic programming을 이용해서 수열의 부분합 문제 풀기
+1. [a_fibo_dp](https://github.com/Imshyeon/Algorithm/blob/main/g_dynamic_programming/a_fibo_dp.py) : a_basic에 있던 피보나치 수열을 가지고 와서 dynamic programming으로 구현하기
+2. [b_sum_dp](https://github.com/Imshyeon/Algorithm/blob/main/g_dynamic_programming/b_sum_dp.py) : dynamic programming을 이용해서 수열의 부분합 문제 풀기
